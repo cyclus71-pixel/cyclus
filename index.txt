@@ -2697,7 +2697,7 @@ mso-bidi-font-family:"Times New Roman";color:#6C6F72;mso-font-kerning:0pt;
 mso-ligatures:none;mso-fareast-language:EN-ID'>phpMyAdmin is a user-friendly
 database management tool that is robust, web-based MySQL database client. Since
 phpMyAdmin is a web application, you&#8194;will need a running web server.
-We’ll&#8194;go with Apache, the most commonly used open-source web server.<o:p></o:p></span></p>
+WeÂ’ll&#8194;go with Apache, the most commonly used open-source web server.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:15.0pt;line-height:24.75pt;mso-outline-level:
 3;background:white'><b><span style='font-size:17.0pt;font-family:"Arial",sans-serif;
@@ -3219,8 +3219,8 @@ mso-fareast-language:EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:#6C6F72;mso-font-kerning:0pt;
 mso-ligatures:none;mso-fareast-language:EN-ID'>To get the stable version, you
-have to install phpMyAdmin from Debian 12 repository (not the “oldstable” one
-we’ve seen&#8194;above).<o:p></o:p></span></p>
+have to install phpMyAdmin from Debian 12 repository (not the Â“oldstableÂ” one
+weÂ’ve seen&#8194;above).<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:15.0pt;line-height:normal;background:
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
@@ -3246,7 +3246,7 @@ mso-fareast-language:EN-ID'><o:p></o:p></span></p>
 <p class=MsoNormal style='margin-bottom:15.0pt;line-height:normal;background:
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:#6C6F72;mso-font-kerning:0pt;
-mso-ligatures:none;mso-fareast-language:EN-ID'>Configure database: “Yes” will
+mso-ligatures:none;mso-fareast-language:EN-ID'>Configure database: Â“YesÂ” will
 automatically configure&#8194;the database for you:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;background:white'><span
@@ -3268,7 +3268,7 @@ mso-fareast-language:EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:#6C6F72;mso-font-kerning:0pt;
 mso-ligatures:none;mso-fareast-language:EN-ID'>Use&#8194;a strong password for
-phpMyAdmin’s database user:<o:p></o:p></span></p>
+phpMyAdminÂ’s database user:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0cm;line-height:normal;background:white'><span
 style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
@@ -3301,7 +3301,7 @@ color:black;mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:#6C6F72;mso-font-kerning:0pt;
 mso-ligatures:none;mso-fareast-language:EN-ID'>To complete the installation,
-you&#8194;can tell Apache how to access the new files. It should mean you don’t
+you&#8194;can tell Apache how to access the new files. It should mean you donÂ’t
 need to do any Apache setup at all once&#8194;the Debian package is installed,
 but make sure the Apache config and VirtualHosts files are there:<o:p></o:p></span></p>
 
@@ -3479,13 +3479,13 @@ these commands:<o:p></o:p></span></p>
    <p class=MsoNormal align=center style='margin-bottom:15.0pt;text-align:center;
    line-height:normal'><b><span style='font-family:"Times New Roman",serif;
    mso-fareast-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
-   none;mso-fareast-language:EN-ID'>CREATE USER ‘phpmyadmin_user’@’localhost’
-   IDENTIFIED BY ‘strong_password_here’;<o:p></o:p></span></b></p>
+   none;mso-fareast-language:EN-ID'>CREATE USER Â‘phpmyadmin_userÂ’@Â’localhostÂ’
+   IDENTIFIED BY Â‘strong_password_hereÂ’;<o:p></o:p></span></b></p>
    <p class=MsoNormal align=center style='margin-bottom:15.0pt;text-align:center;
    line-height:normal'><b><span style='font-family:"Times New Roman",serif;
    mso-fareast-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
    none;mso-fareast-language:EN-ID'>GRANT ALL PRIVILEGES ON *.* TO
-   ‘phpmyadmin_user’@’localhost’ WITH GRANT OPTION;<o:p></o:p></span></b></p>
+   Â‘phpmyadmin_userÂ’@Â’localhostÂ’ WITH GRANT OPTION;<o:p></o:p></span></b></p>
    <p class=MsoNormal align=center style='margin-bottom:15.0pt;text-align:center;
    line-height:normal'><b><span style='font-family:"Times New Roman",serif;
    mso-fareast-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
@@ -3812,7 +3812,7 @@ mso-ligatures:none;mso-fareast-language:EN-ID'>To install phpMyAdmin on Debian
 12, start by updating your package list: sudo apt update And then install
 phpMyAdmin&#8194;and also required packages: sudo apt install phpmyadmin
 php-mbstring php-zip php-gd php-json php-curl While installing, choose your web
-server&#8194;(apache2 or nginx), chose “Yes” to configure the database with
+server&#8194;(apache2 or nginx), chose Â“YesÂ” to configure the database with
 dbconfig-common and create a password for phpMyAdmin to log into the
 application.<o:p></o:p></span></p>
 
@@ -4004,7 +4004,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'>Code<span
-style='mso-spacerun:yes'>    </span></span><span style='font-family:Roboto;
+style='mso-spacerun:yes'>Â Â Â  </span></span><span style='font-family:Roboto;
 mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><o:p></o:p></span></p>
 
@@ -4051,7 +4051,7 @@ EN-ID'><o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:15.0pt;line-height:normal'><span
   style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
   mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
-  none;mso-fareast-language:EN-ID'><span style='mso-spacerun:yes'>   
+  none;mso-fareast-language:EN-ID'><span style='mso-spacerun:yes'>Â Â Â 
   </span>sudo apt install -y php8.4-fpm<o:p></o:p></span></p>
   </td>
  </tr>
@@ -4099,9 +4099,9 @@ EN-ID'><o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:15.0pt;line-height:normal'><span
   style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
   mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
-  none;mso-fareast-language:EN-ID'><span style='mso-spacerun:yes'>   
+  none;mso-fareast-language:EN-ID'><span style='mso-spacerun:yes'>Â Â Â 
   </span>sudo systemctl enable php8.4-fpm<br>
-  <span style='mso-spacerun:yes'>    </span>sudo systemctl start php8.4-fpm<o:p></o:p></span></p>
+  <span style='mso-spacerun:yes'>Â Â Â  </span>sudo systemctl start php8.4-fpm<o:p></o:p></span></p>
   </td>
  </tr>
 </table>
@@ -4123,7 +4123,7 @@ mso-ligatures:none;mso-fareast-language:EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'>Code<span
-style='mso-spacerun:yes'>    </span></span><span style='font-family:Roboto;
+style='mso-spacerun:yes'>Â Â Â  </span></span><span style='font-family:Roboto;
 mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><o:p></o:p></span></p>
 
@@ -4171,7 +4171,7 @@ EN-ID'><o:p></o:p></span></p>
   <p class=MsoNormal style='margin-bottom:15.0pt;line-height:normal'><span
   style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
   mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
-  none;mso-fareast-language:EN-ID'><span style='mso-spacerun:yes'>   
+  none;mso-fareast-language:EN-ID'><span style='mso-spacerun:yes'>Â Â Â 
   </span>php8.4 -v<o:p></o:p></span></p>
   </td>
  </tr>
@@ -4273,7 +4273,7 @@ mso-fareast-language:EN-ID'><o:p>&nbsp;</o:p></span></p>
   style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
   mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;mso-ligatures:
   none;mso-fareast-language:EN-ID'>chown -R <span
-  style='mso-spacerun:yes'> </span>lkom:www-data /var/www/html<o:p></o:p></span></p>
+  style='mso-spacerun:yes'>Â </span>lkom:www-data /var/www/html<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
@@ -4439,8 +4439,8 @@ Windows.<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-bottom:21.0pt;line-height:normal;background:
 white'><!--[if mso & !supportInlineShapes & supportFields]><span
 style='color:black;mso-color-alt:windowtext'><span style='mso-element:field-begin;
-mso-field-lock:yes'></span><span style='mso-spacerun:yes'> </span>SHAPE <span
-style='mso-spacerun:yes'> </span>\* MERGEFORMAT <span style='mso-element:field-separator'></span></span><![endif]--><span
+mso-field-lock:yes'></span><span style='mso-spacerun:yes'>Â </span>SHAPE <span
+style='mso-spacerun:yes'>Â </span>\* MERGEFORMAT <span style='mso-element:field-separator'></span></span><![endif]--><span
 style='color:black;mso-color-alt:windowtext'><!--[if gte vml 1]><v:rect id="AutoShape_x0020_1"
  o:spid="_x0000_s1026" alt="&#128518;" style='width:24.3pt;height:24.3pt;
  visibility:visible;mso-wrap-style:square;mso-left-percent:-10001;
@@ -4571,7 +4571,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>php -i | grep &quot;Loaded
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>php -i | grep &quot;Loaded
 Configuration File&quot;</span><span style='font-family:Roboto;mso-fareast-font-family:
 "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;
 mso-ligatures:none;mso-fareast-language:EN-ID'><o:p></o:p></span></p>
@@ -4605,7 +4605,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>    </span>sudo nano
+style='mso-spacerun:yes'>Â Â Â  </span>sudo nano
 /etc/php/&lt;PHP_VERSION&gt;/apache2/php.ini</span><span style='font-family:
 Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><o:p></o:p></span></p>
@@ -4653,7 +4653,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>display_errors = On</span><span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>display_errors = On</span><span
 style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 "Times New Roman";mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:
 EN-ID'><o:p></o:p></span></p>
@@ -4683,7 +4683,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>error_reporting = E_ALL</span><span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>error_reporting = E_ALL</span><span
 style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 "Times New Roman";mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:
 EN-ID'><o:p></o:p></span></p>
@@ -4712,7 +4712,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>log_errors = On</span><span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>log_errors = On</span><span
 style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 "Times New Roman";mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:
 EN-ID'><o:p></o:p></span></p>
@@ -4741,7 +4741,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>error_log = /var/log/php_errors.log</span><span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>error_log = /var/log/php_errors.log</span><span
 style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 "Times New Roman";mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:
 EN-ID'><o:p></o:p></span></p>
@@ -4776,7 +4776,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>sudo systemctl restart apache2</span><span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>sudo systemctl restart apache2</span><span
 style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 "Times New Roman";mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:
 EN-ID'><o:p></o:p></span></p>
@@ -4801,7 +4801,7 @@ EN-ID'><o:p></o:p></span></p>
 white'><span style='font-family:Roboto;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;
 mso-font-kerning:0pt;mso-ligatures:none;mso-fareast-language:EN-ID'><span
-style='mso-spacerun:yes'>        </span>sudo systemctl restart
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>sudo systemctl restart
 php&lt;PHP_VERSION&gt;-fpm</span><span style='font-family:Roboto;mso-fareast-font-family:
 "Times New Roman";mso-bidi-font-family:"Times New Roman";mso-font-kerning:0pt;
 mso-ligatures:none;mso-fareast-language:EN-ID'><o:p></o:p></span></p>
